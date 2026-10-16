@@ -564,6 +564,7 @@ main {
     gap: 7px;
     padding-right: 22px;
     min-height: 145px;
+    border-bottom: none;
   }
 
   .recent-activities-subject-img {
@@ -798,6 +799,7 @@ main {
   }
   .active-projects-subject {
     padding: 15px 0px;
+    border-bottom: none;
   }
   #active-projects-recent-activities {
     flex-direction: column;
@@ -872,6 +874,11 @@ main {
 
 /* mobile */
 @media (max-width: 480px) {
+  summary::marker,
+  summary::-webkit-details-marker {
+    display: none;
+  }
+
   #recent-activities {
     width: 88%;
   }
@@ -884,6 +891,7 @@ main {
     gap: 7px;
     padding-right: 22px;
     min-height: 145px;
+    border-bottom: none;
   }
 
   .recent-activities-subject-img {
@@ -1087,6 +1095,7 @@ main {
   }
   .active-projects-subject {
     padding: 15px 0px;
+    border-bottom: none;
   }
   #active-projects-recent-activities {
     flex-direction: column;
@@ -1161,10 +1170,10 @@ main {
     font-size: 16px;
   }
   .phone-sidebar-svg {
-        width: 30px;
-        height: 30px;
-    }
-        #manager-profile-p{
-        font-size: 16px;
-    }
+    width: 30px;
+    height: 30px;
+  }
+  #manager-profile-p {
+    font-size: 16px;
+  }
 }
