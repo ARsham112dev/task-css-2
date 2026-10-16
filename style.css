@@ -609,8 +609,8 @@ main {
     z-index: 100;
   }
   summary {
-    display: block; 
-    list-style: none; 
+    display: block;
+    list-style: none;
   }
 
   summary::marker,
@@ -924,6 +924,7 @@ main {
     left: 0px;
     border-radius: 1rem;
     padding-top: 10px;
+    z-index: 100;
   }
   #default-sidebar-option {
     padding: 10px;
