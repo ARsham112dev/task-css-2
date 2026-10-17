@@ -544,6 +544,19 @@ main {
   flex-shrink: 0;
   margin-left: 12px;
 }
+.active-projects-subject-imgs img:nth-child(2) {
+  margin-left: -15px;
+  z-index: 2;
+}
+
+.active-projects-subject-imgs img:first-child {
+  margin-left: -15px;
+  z-index: 3;
+}
+
+.active-projects-subject-imgs img:last-child {
+  z-index: 1;
+}
 /* tablet */
 @media (max-width: 768px) {
   #active-projects-subjects {
