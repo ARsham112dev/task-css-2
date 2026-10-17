@@ -640,6 +640,18 @@ main {
   #manager-profile-p {
     font-size: 20px;
   }
+  .projects-and-duties-card-green-svg-itself {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: 2px;
+  }
+  .projects-and-duties-card-red-svg-itself {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: 2px;
+  }
   #manager-profile {
     padding-right: 20px;
     gap: 20px;
@@ -933,6 +945,18 @@ main {
   }
   #new-header-menu {
     position: relative;
+  }
+  .projects-and-duties-card-green-svg-itself {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: 2px;
+  }
+  .projects-and-duties-card-red-svg-itself {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: 2px;
   }
   #phone-sidebar {
     width: 50vw;
