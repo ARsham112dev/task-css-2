@@ -12,7 +12,7 @@ body {
 main {
   margin-right: 9.375rem;
 }
-header {
+#page-top-bar {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -283,6 +283,18 @@ main {
   background-color: rgb(235, 243, 250);
   font-size: 14px;
   font-weight: bold;
+}
+.projects-and-duties-card-red-svg-itself {
+  position: relative;
+  top: 3px;
+}
+.projects-and-duties-card-green-svg-itself {
+  position: relative;
+  top: 3px;
+}
+.projects-and-duties-card-percent-box-and-svg {
+  position: absolute;
+  right: 30px;
 }
 .active-projects-list-last-p {
   display: flex;
@@ -761,7 +773,7 @@ main {
   #search-box-svg {
     width: 30px;
   }
-  header {
+  #page-top-bar {
     display: block;
     padding-left: 0;
   }
@@ -1069,7 +1081,7 @@ main {
   #search-box-svg {
     width: 30px;
   }
-  header {
+  #page-top-bar {
     display: block;
     padding-left: 0;
   }
